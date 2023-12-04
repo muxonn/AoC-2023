@@ -1,2 +1,2 @@
-# AoC-2023
+# Advent of Code 2023
 Christmas puzzles from: https://adventofcode.com/2023/events
