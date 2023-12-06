@@ -7,13 +7,12 @@ def joined_value(line):
         value += i
     return int(value)
 
-time = joined_value(file[0])
+t = joined_value(file[0])
 distance = joined_value(file[1])
 
 ways = 0
-last_s = 0
-for i in range(1, time):
-    s = i * (time - i)
+for i in range(1, t):
+    s = i * (t - i)
     if s > distance:
         ways += 1
 
